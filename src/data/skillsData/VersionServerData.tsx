@@ -3,12 +3,12 @@ import aws from "../../assets/skills/version_server/aws.png";
 import firebase from "../../assets/skills/version_server/firebase.png";
 import github from "../../assets/skills/version_server/github.png";
 import git from "../../assets/skills/version_server/git.png";
-import {chooseType, SkillsDefinition} from "./SkillsDefinition";
+import {chooseSkillsType, SkillsDefinition} from "./SkillsDefinition";
 import java from "../../assets/skills/backend/java.png";
 
 
-const typeVersion: chooseType = 'Version';
-const typeServer: chooseType = 'Server';
+const typeVersion: chooseSkillsType = 'Version';
+const typeServer: chooseSkillsType = 'Server';
 export const versionServerData =[
     new SkillsDefinition(
         "AWS",

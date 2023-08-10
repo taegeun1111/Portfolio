@@ -1,4 +1,4 @@
-import {chooseType, SkillsDefinition} from "./SkillsDefinition";
+import {chooseSkillsType, SkillsDefinition} from "./SkillsDefinition";
 import htmlCss from '../../assets/skills/frontend/html_css.png'
 import js from '../../assets/skills/frontend/js.png'
 import ts from '../../assets/skills/frontend/ts.png'
@@ -6,8 +6,8 @@ import react from '../../assets/skills/frontend/react.png'
 import sass from '../../assets/skills/frontend/sass.png'
 import redux from '../../assets/skills/frontend/redux.png'
 
-const typeLanguage: chooseType = 'Language';
-const typeFramework: chooseType = 'Framework';
+const typeLanguage: chooseSkillsType = 'Language';
+const typeFramework: chooseSkillsType = 'Framework';
 
 export const frontendData : SkillsDefinition[] = [
     new SkillsDefinition(

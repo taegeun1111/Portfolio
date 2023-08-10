@@ -2,11 +2,11 @@ import React from 'react';
 import java from "../../assets/skills/backend/java.png";
 import spring from "../../assets/skills/backend/spring.png";
 import springBoot from "../../assets/skills/backend/springBoot.png";
-import {chooseType, SkillsDefinition} from "./SkillsDefinition";
+import {chooseSkillsType, SkillsDefinition} from "./SkillsDefinition";
 
 
-const typeLanguage: chooseType = 'Language';
-const typeFramework: chooseType = 'Framework';
+const typeLanguage: chooseSkillsType = 'Language';
+const typeFramework: chooseSkillsType = 'Framework';
 
 export const backendData: SkillsDefinition[] = [
     new SkillsDefinition(
