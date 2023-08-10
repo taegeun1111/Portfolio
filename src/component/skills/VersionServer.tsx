@@ -5,7 +5,7 @@ import {SkillsDefinition} from "../../data/skillsData/SkillsDefinition";
 const VersionServer = () => {
   return (
       <ul className={"list-container"}>
-        {versionServerData.map((list :SkillsD정efinition)=>(
+        {versionServerData.map((list :SkillsDefinition)=>(
             <li className={"list-wrapper"} key={list.name}>
               <img src={list.img} alt={list.name} className={"list-img"}/>
               <div className={"list-name"}>{list.name}</div>

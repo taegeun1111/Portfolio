@@ -5,7 +5,7 @@ import todo from "../../assets/project/persoanl/todo.png";
 
 const typePersonal: chooseProjectType = 'Personal';
 
-export const teamProjectData: projectDefinition[] = [
+export const personalProjectData: projectDefinition[] = [
     new projectDefinition(
         "TODO",
         todo,

@@ -1,4 +1,6 @@
 import React from 'react';
+import TeamProject from "./TeamProject";
+import PersonalProject from "./PersonalProject";
 
 const Project = () => {
   return (
